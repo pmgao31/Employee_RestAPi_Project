@@ -1,0 +1,10 @@
+com\employee\testcases\TC001_GET_All_Employees.class
+com\employee\utilities\XLUtils.class
+com\employee\base\TestBaseClass.class
+com\employee\testcases\TC006_DELETE_Employee_Record.class
+com\employee\utilities\Reporting.class
+com\employee\testcases\TC004_POST_Employee_Record_with_Random_data.class
+com\employee\testcases\TC005_PUT_Update_Employee_Record.class
+com\employee\utilities\ReadConfig.class
+com\employee\testcases\TC002_GET_Single_Employee_Details.class
+com\employee\testcases\TC003_POST_Employee_Record.class

@@ -1,0 +1,1734 @@
+2022-11-28 18:05:05 INFO  EmployeeRestAPI:15 -  $$ Started TC001 Get All Employees API $$ 
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:23 -  $$ Checking Response body $$ 
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:26 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:32 -  $$ Checking Status Code $$ 
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:35 - Status Code==> 429
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:41 -  $$ Checking Response Time $$ 
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:44 - Response Time==> 1957
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:52 -  $$ Checking Status Line $$ 
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:55 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:61 -  $$ Checking Content Type $$ 
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:64 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:70 -  $$ Checking Server Type $$ 
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:73 - Server Type==> nginx/1.21.6
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:79 -  $$ Finished TC001 Get All Employees API $$
+  2022-11-28 18:05:07 INFO  EmployeeRestAPI:22 - $$ Started TC005 Update Employee Record $$
+  2022-11-28 18:05:08 INFO  EmployeeRestAPI:40 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 18:05:08 INFO  EmployeeRestAPI:49 - Status Code==> 429
+  2022-11-28 18:05:08 INFO  EmployeeRestAPI:57 - Response Time==> 1134
+  2022-11-28 18:05:08 INFO  EmployeeRestAPI:67 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:05:08 INFO  EmployeeRestAPI:75 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:05:08 INFO  EmployeeRestAPI:83 - Content Length==> null
+  2022-11-28 18:05:08 INFO  EmployeeRestAPI:100 - $$ Finished TC003 Update Employee Record $$
+  2022-11-28 18:05:08 INFO  EmployeeRestAPI:18 - $$ Started TC006 Delete Employee Record $$
+  2022-11-28 18:05:10 INFO  EmployeeRestAPI:32 - Response body==> <!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8" />
+    
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Method Not Allowed</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "405 Method Not Allowed".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+<script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body>
+</html>
+  2022-11-28 18:05:10 INFO  EmployeeRestAPI:41 - Status Code==> 405
+  2022-11-28 18:05:10 INFO  EmployeeRestAPI:49 - Response Time==> 1180
+  2022-11-28 18:05:10 INFO  EmployeeRestAPI:57 - $$ Finished TC006 Delete Employee Record $$
+  2022-11-28 18:05:10 INFO  EmployeeRestAPI:15 -  $$ Started TC002 Get Single Employee ID $$
+  2022-11-28 18:05:11 INFO  EmployeeRestAPI:25 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 18:05:11 INFO  EmployeeRestAPI:34 - Status Code==> 429
+  2022-11-28 18:05:11 INFO  EmployeeRestAPI:42 - Response Time==> 1309
+  2022-11-28 18:05:11 INFO  EmployeeRestAPI:52 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:05:11 INFO  EmployeeRestAPI:60 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:05:11 INFO  EmployeeRestAPI:68 - Server Type==> null
+  2022-11-28 18:05:11 INFO  EmployeeRestAPI:74 -  $$ Finished TC002 Get Single Employee detail $$
+  2022-11-28 18:05:12 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 18:05:13 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 18:05:14 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 18:05:15 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 18:05:17 INFO  EmployeeRestAPI:38 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 18:05:17 INFO  EmployeeRestAPI:47 - Status Code==> 429
+  2022-11-28 18:05:17 INFO  EmployeeRestAPI:55 - Response Time==> 1094
+  2022-11-28 18:05:17 INFO  EmployeeRestAPI:65 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:05:17 INFO  EmployeeRestAPI:73 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:05:17 INFO  EmployeeRestAPI:81 - Content Length==> null
+  2022-11-28 18:05:17 INFO  EmployeeRestAPI:106 - $$ Finished TC003 POST Employee Record $$
+  2022-11-28 18:05:17 INFO  EmployeeRestAPI:19 - $$ Started TC004 Post Employee Record $$
+  2022-11-28 18:05:18 INFO  EmployeeRestAPI:37 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 18:05:18 INFO  EmployeeRestAPI:46 - Status Code==> 429
+  2022-11-28 18:05:18 INFO  EmployeeRestAPI:54 - Response Time==> 1126
+  2022-11-28 18:05:18 INFO  EmployeeRestAPI:64 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:05:18 INFO  EmployeeRestAPI:72 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:05:18 INFO  EmployeeRestAPI:80 - Content Length==> null
+  2022-11-28 18:05:18 INFO  EmployeeRestAPI:99 - $$ Finished TC004 POST Employee Record $$
+  2022-11-28 18:21:33 INFO  EmployeeRestAPI:15 -  $$ Started TC001 Get All Employees API $$ 
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:23 -  $$ Checking Response body $$ 
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:26 - Response body==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:32 -  $$ Checking Status Code $$ 
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:35 - Status Code==> 200
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:41 -  $$ Checking Response Time $$ 
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:44 - Response Time==> 1841
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:52 -  $$ Checking Status Line $$ 
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:55 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:61 -  $$ Checking Content Type $$ 
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:64 - Content Type==> application/json
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:70 -  $$ Checking Server Type $$ 
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:73 - Server Type==> nginx/1.21.6
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:79 -  $$ Finished TC001 Get All Employees API $$
+  2022-11-28 18:21:35 INFO  EmployeeRestAPI:22 - $$ Started TC005 Update Employee Record $$
+  2022-11-28 18:21:36 INFO  EmployeeRestAPI:40 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 18:21:36 INFO  EmployeeRestAPI:49 - Status Code==> 429
+  2022-11-28 18:21:36 INFO  EmployeeRestAPI:57 - Response Time==> 1089
+  2022-11-28 18:21:36 INFO  EmployeeRestAPI:67 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:21:36 INFO  EmployeeRestAPI:75 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:21:36 INFO  EmployeeRestAPI:83 - Content Length==> null
+  2022-11-28 18:21:36 INFO  EmployeeRestAPI:100 - $$ Finished TC003 Update Employee Record $$
+  2022-11-28 18:21:36 INFO  EmployeeRestAPI:18 - $$ Started TC006 Delete Employee Record $$
+  2022-11-28 18:21:37 INFO  EmployeeRestAPI:32 - Response body==> <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Method Not Allowed</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "405 Method Not Allowed".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>
+  2022-11-28 18:21:37 INFO  EmployeeRestAPI:41 - Status Code==> 405
+  2022-11-28 18:21:37 INFO  EmployeeRestAPI:49 - Response Time==> 1080
+  2022-11-28 18:21:37 INFO  EmployeeRestAPI:57 - $$ Finished TC006 Delete Employee Record $$
+  2022-11-28 18:21:37 INFO  EmployeeRestAPI:15 -  $$ Started TC002 Get Single Employee ID $$
+  2022-11-28 18:21:39 INFO  EmployeeRestAPI:25 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 18:21:39 INFO  EmployeeRestAPI:34 - Status Code==> 429
+  2022-11-28 18:21:39 INFO  EmployeeRestAPI:42 - Response Time==> 1117
+  2022-11-28 18:21:39 INFO  EmployeeRestAPI:52 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:21:39 INFO  EmployeeRestAPI:60 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:21:39 INFO  EmployeeRestAPI:68 - Server Type==> null
+  2022-11-28 18:21:39 INFO  EmployeeRestAPI:74 -  $$ Finished TC002 Get Single Employee detail $$
+  2022-11-28 18:21:39 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 18:21:40 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 18:21:41 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 18:21:43 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 18:21:44 INFO  EmployeeRestAPI:38 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 18:21:44 INFO  EmployeeRestAPI:47 - Status Code==> 429
+  2022-11-28 18:21:44 INFO  EmployeeRestAPI:55 - Response Time==> 1088
+  2022-11-28 18:21:44 INFO  EmployeeRestAPI:65 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:21:44 INFO  EmployeeRestAPI:73 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:21:44 INFO  EmployeeRestAPI:81 - Content Length==> null
+  2022-11-28 18:21:44 INFO  EmployeeRestAPI:106 - $$ Finished TC003 POST Employee Record $$
+  2022-11-28 18:21:44 INFO  EmployeeRestAPI:19 - $$ Started TC004 Post Employee Record $$
+  2022-11-28 18:21:45 INFO  EmployeeRestAPI:37 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body>
+</html>
+
+  2022-11-28 18:21:45 INFO  EmployeeRestAPI:46 - Status Code==> 429
+  2022-11-28 18:21:45 INFO  EmployeeRestAPI:54 - Response Time==> 1092
+  2022-11-28 18:21:45 INFO  EmployeeRestAPI:64 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 18:21:45 INFO  EmployeeRestAPI:72 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 18:21:45 INFO  EmployeeRestAPI:80 - Content Length==> null
+  2022-11-28 18:21:45 INFO  EmployeeRestAPI:99 - $$ Finished TC004 POST Employee Record $$
+  2022-11-28 19:41:42 INFO  EmployeeRestAPI:15 -  $$ Started TC001 Get All Employees API $$ 
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:23 -  $$ Checking Response body $$ 
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:26 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:32 -  $$ Checking Status Code $$ 
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:35 - Status Code==> 429
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:41 -  $$ Checking Response Time $$ 
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:44 - Response Time==> 1987
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:52 -  $$ Checking Status Line $$ 
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:55 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:61 -  $$ Checking Content Type $$ 
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:64 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:70 -  $$ Checking Server Type $$ 
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:73 - Server Type==> nginx/1.21.6
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:79 -  $$ Finished TC001 Get All Employees API $$
+  2022-11-28 19:41:44 INFO  EmployeeRestAPI:22 - $$ Started TC005 Update Employee Record $$
+  2022-11-28 19:41:45 INFO  EmployeeRestAPI:40 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body>
+</html>
+
+  2022-11-28 19:41:45 INFO  EmployeeRestAPI:49 - Status Code==> 429
+  2022-11-28 19:41:45 INFO  EmployeeRestAPI:57 - Response Time==> 1045
+  2022-11-28 19:41:45 INFO  EmployeeRestAPI:67 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:41:45 INFO  EmployeeRestAPI:75 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:41:45 INFO  EmployeeRestAPI:83 - Content Length==> null
+  2022-11-28 19:41:45 INFO  EmployeeRestAPI:100 - $$ Finished TC003 Update Employee Record $$
+  2022-11-28 19:41:45 INFO  EmployeeRestAPI:18 - $$ Started TC006 Delete Employee Record $$
+  2022-11-28 19:41:46 INFO  EmployeeRestAPI:32 - Response body==> <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Method Not Allowed</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "405 Method Not Allowed".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>
+  2022-11-28 19:41:46 INFO  EmployeeRestAPI:41 - Status Code==> 405
+  2022-11-28 19:41:46 INFO  EmployeeRestAPI:49 - Response Time==> 1127
+  2022-11-28 19:41:46 INFO  EmployeeRestAPI:57 - $$ Finished TC006 Delete Employee Record $$
+  2022-11-28 19:41:46 INFO  EmployeeRestAPI:15 -  $$ Started TC002 Get Single Employee ID $$
+  2022-11-28 19:41:47 INFO  EmployeeRestAPI:25 - Response body==> {"status":"success","data":{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},"message":"Successfully! Record has been fetched."}
+  2022-11-28 19:41:47 INFO  EmployeeRestAPI:34 - Status Code==> 200
+  2022-11-28 19:41:47 INFO  EmployeeRestAPI:42 - Response Time==> 1065
+  2022-11-28 19:41:47 INFO  EmployeeRestAPI:52 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:41:47 INFO  EmployeeRestAPI:60 - Content Type==> application/json
+  2022-11-28 19:41:47 INFO  EmployeeRestAPI:68 - Server Type==> 183
+  2022-11-28 19:41:47 INFO  EmployeeRestAPI:74 -  $$ Finished TC002 Get Single Employee detail $$
+  2022-11-28 19:41:48 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:41:49 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:41:50 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:41:51 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:41:53 INFO  EmployeeRestAPI:38 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:41:53 INFO  EmployeeRestAPI:47 - Status Code==> 429
+  2022-11-28 19:41:53 INFO  EmployeeRestAPI:55 - Response Time==> 1033
+  2022-11-28 19:41:53 INFO  EmployeeRestAPI:65 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:41:53 INFO  EmployeeRestAPI:73 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:41:53 INFO  EmployeeRestAPI:81 - Content Length==> null
+  2022-11-28 19:41:53 INFO  EmployeeRestAPI:106 - $$ Finished TC003 POST Employee Record $$
+  2022-11-28 19:41:53 INFO  EmployeeRestAPI:19 - $$ Started TC004 Post Employee Record $$
+  2022-11-28 19:41:54 INFO  EmployeeRestAPI:37 - Response body==> {"status":"success","data":{"Salary":"11643","name":"John PldWI","age":"50","id":9700},"message":"Successfully! Record has been added."}
+  2022-11-28 19:41:54 INFO  EmployeeRestAPI:46 - Status Code==> 200
+  2022-11-28 19:41:54 INFO  EmployeeRestAPI:54 - Response Time==> 1101
+  2022-11-28 19:41:54 INFO  EmployeeRestAPI:64 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:41:54 INFO  EmployeeRestAPI:72 - Content Type==> application/json
+  2022-11-28 19:41:54 INFO  EmployeeRestAPI:80 - Content Length==> 136
+  2022-11-28 19:41:54 INFO  EmployeeRestAPI:99 - $$ Finished TC004 POST Employee Record $$
+  2022-11-28 19:45:18 INFO  EmployeeRestAPI:15 -  $$ Started TC001 Get All Employees API $$ 
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:23 -  $$ Checking Response body $$ 
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:26 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body>
+</html>
+
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:32 -  $$ Checking Status Code $$ 
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:35 - Status Code==> 429
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:41 -  $$ Checking Response Time $$ 
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:44 - Response Time==> 2110
+  2022-11-28 19:45:21 WARN  EmployeeRestAPI:46 - Response time is greater than 2000
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:52 -  $$ Checking Status Line $$ 
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:55 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:61 -  $$ Checking Content Type $$ 
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:64 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:70 -  $$ Checking Server Type $$ 
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:73 - Server Type==> nginx/1.21.6
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:79 -  $$ Finished TC001 Get All Employees API $$
+  2022-11-28 19:45:21 INFO  EmployeeRestAPI:22 - $$ Started TC005 Update Employee Record $$
+  2022-11-28 19:45:22 INFO  EmployeeRestAPI:40 - Response body==> {"status":"success","data":{"Salary":"18483","name":"John DkAKT","age":"17"},"message":"Successfully! Record has been updated."}
+  2022-11-28 19:45:22 INFO  EmployeeRestAPI:49 - Status Code==> 200
+  2022-11-28 19:45:22 INFO  EmployeeRestAPI:57 - Response Time==> 1135
+  2022-11-28 19:45:22 INFO  EmployeeRestAPI:67 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:45:22 INFO  EmployeeRestAPI:75 - Content Type==> application/json
+  2022-11-28 19:45:22 INFO  EmployeeRestAPI:83 - Content Length==> 128
+  2022-11-28 19:45:22 INFO  EmployeeRestAPI:100 - $$ Finished TC003 Update Employee Record $$
+  2022-11-28 19:45:22 INFO  EmployeeRestAPI:18 - $$ Started TC006 Delete Employee Record $$
+  2022-11-28 19:45:23 INFO  EmployeeRestAPI:32 - Response body==> <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Method Not Allowed</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "405 Method Not Allowed".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>
+  2022-11-28 19:45:23 INFO  EmployeeRestAPI:41 - Status Code==> 405
+  2022-11-28 19:45:23 INFO  EmployeeRestAPI:49 - Response Time==> 1073
+  2022-11-28 19:45:23 INFO  EmployeeRestAPI:57 - $$ Finished TC006 Delete Employee Record $$
+  2022-11-28 19:45:23 INFO  EmployeeRestAPI:15 -  $$ Started TC002 Get Single Employee ID $$
+  2022-11-28 19:45:24 INFO  EmployeeRestAPI:25 - Response body==> {"status":"success","data":{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},"message":"Successfully! Record has been fetched."}
+  2022-11-28 19:45:24 INFO  EmployeeRestAPI:34 - Status Code==> 200
+  2022-11-28 19:45:24 INFO  EmployeeRestAPI:42 - Response Time==> 1207
+  2022-11-28 19:45:24 INFO  EmployeeRestAPI:52 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:45:24 INFO  EmployeeRestAPI:60 - Content Type==> application/json
+  2022-11-28 19:45:24 INFO  EmployeeRestAPI:68 - Server Type==> 183
+  2022-11-28 19:45:24 INFO  EmployeeRestAPI:74 -  $$ Finished TC002 Get Single Employee detail $$
+  2022-11-28 19:45:25 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:45:26 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:45:27 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:45:28 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:45:30 INFO  EmployeeRestAPI:38 - Response body==> {"status":"success","data":{"Salary":"80000","name":"Cena","age":"35","id":914},"message":"Successfully! Record has been added."}
+  2022-11-28 19:45:30 INFO  EmployeeRestAPI:47 - Status Code==> 200
+  2022-11-28 19:45:30 INFO  EmployeeRestAPI:55 - Response Time==> 1106
+  2022-11-28 19:45:30 INFO  EmployeeRestAPI:65 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:45:30 INFO  EmployeeRestAPI:73 - Content Type==> application/json
+  2022-11-28 19:45:30 INFO  EmployeeRestAPI:81 - Content Length==> 129
+  2022-11-28 19:45:30 INFO  EmployeeRestAPI:106 - $$ Finished TC003 POST Employee Record $$
+  2022-11-28 19:45:30 INFO  EmployeeRestAPI:19 - $$ Started TC004 Post Employee Record $$
+  2022-11-28 19:45:31 INFO  EmployeeRestAPI:37 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:45:31 INFO  EmployeeRestAPI:46 - Status Code==> 429
+  2022-11-28 19:45:31 INFO  EmployeeRestAPI:54 - Response Time==> 1074
+  2022-11-28 19:45:31 INFO  EmployeeRestAPI:64 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:45:31 INFO  EmployeeRestAPI:72 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:45:31 INFO  EmployeeRestAPI:80 - Content Length==> null
+  2022-11-28 19:45:31 INFO  EmployeeRestAPI:99 - $$ Finished TC004 POST Employee Record $$
+  2022-11-28 19:47:58 INFO  EmployeeRestAPI:15 -  $$ Started TC001 Get All Employees API $$ 
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:23 -  $$ Checking Response body $$ 
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:26 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:32 -  $$ Checking Status Code $$ 
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:35 - Status Code==> 429
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:41 -  $$ Checking Response Time $$ 
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:44 - Response Time==> 1984
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:52 -  $$ Checking Status Line $$ 
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:55 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:61 -  $$ Checking Content Type $$ 
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:64 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:70 -  $$ Checking Server Type $$ 
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:73 - Server Type==> nginx/1.21.6
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:79 -  $$ Finished TC001 Get All Employees API $$
+  2022-11-28 19:48:00 INFO  EmployeeRestAPI:22 - $$ Started TC005 Update Employee Record $$
+  2022-11-28 19:48:01 INFO  EmployeeRestAPI:40 - Response body==> {"status":"success","data":{"Salary":"65040","name":"John xIPjy","age":"58"},"message":"Successfully! Record has been updated."}
+  2022-11-28 19:48:01 INFO  EmployeeRestAPI:49 - Status Code==> 200
+  2022-11-28 19:48:01 INFO  EmployeeRestAPI:57 - Response Time==> 1147
+  2022-11-28 19:48:01 INFO  EmployeeRestAPI:67 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:48:01 INFO  EmployeeRestAPI:75 - Content Type==> application/json
+  2022-11-28 19:48:01 INFO  EmployeeRestAPI:83 - Content Length==> 128
+  2022-11-28 19:48:01 INFO  EmployeeRestAPI:100 - $$ Finished TC003 Update Employee Record $$
+  2022-11-28 19:48:01 INFO  EmployeeRestAPI:18 - $$ Started TC006 Delete Employee Record $$
+  2022-11-28 19:48:02 INFO  EmployeeRestAPI:32 - Response body==> <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Method Not Allowed</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "405 Method Not Allowed".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>
+  2022-11-28 19:48:02 INFO  EmployeeRestAPI:41 - Status Code==> 405
+  2022-11-28 19:48:02 INFO  EmployeeRestAPI:49 - Response Time==> 1122
+  2022-11-28 19:48:02 INFO  EmployeeRestAPI:57 - $$ Finished TC006 Delete Employee Record $$
+  2022-11-28 19:48:02 INFO  EmployeeRestAPI:15 -  $$ Started TC002 Get Single Employee ID $$
+  2022-11-28 19:48:04 INFO  EmployeeRestAPI:25 - Response body==> {"status":"success","data":{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},"message":"Successfully! Record has been fetched."}
+  2022-11-28 19:48:04 INFO  EmployeeRestAPI:34 - Status Code==> 200
+  2022-11-28 19:48:04 INFO  EmployeeRestAPI:42 - Response Time==> 1246
+  2022-11-28 19:48:04 INFO  EmployeeRestAPI:52 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:48:04 INFO  EmployeeRestAPI:60 - Content Type==> application/json
+  2022-11-28 19:48:04 INFO  EmployeeRestAPI:68 - Server Type==> 183
+  2022-11-28 19:48:04 INFO  EmployeeRestAPI:74 -  $$ Finished TC002 Get Single Employee detail $$
+  2022-11-28 19:48:04 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:48:05 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:48:06 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:48:08 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:48:09 INFO  EmployeeRestAPI:38 - Response body==> {"status":"success","data":{"Salary":"80000","name":"Cena","age":"35","id":3452},"message":"Successfully! Record has been added."}
+  2022-11-28 19:48:09 INFO  EmployeeRestAPI:47 - Status Code==> 200
+  2022-11-28 19:48:09 INFO  EmployeeRestAPI:55 - Response Time==> 1175
+  2022-11-28 19:48:09 INFO  EmployeeRestAPI:65 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:48:09 INFO  EmployeeRestAPI:73 - Content Type==> application/json
+  2022-11-28 19:48:09 INFO  EmployeeRestAPI:81 - Content Length==> 130
+  2022-11-28 19:48:09 INFO  EmployeeRestAPI:106 - $$ Finished TC003 POST Employee Record $$
+  2022-11-28 19:48:09 INFO  EmployeeRestAPI:19 - $$ Started TC004 Post Employee Record $$
+  2022-11-28 19:48:10 INFO  EmployeeRestAPI:37 - Response body==> {"status":"success","data":{"Salary":"96961","name":"John CGhpd","age":"95","id":7261},"message":"Successfully! Record has been added."}
+  2022-11-28 19:48:10 INFO  EmployeeRestAPI:46 - Status Code==> 200
+  2022-11-28 19:48:10 INFO  EmployeeRestAPI:54 - Response Time==> 1188
+  2022-11-28 19:48:10 INFO  EmployeeRestAPI:64 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:48:10 INFO  EmployeeRestAPI:72 - Content Type==> application/json
+  2022-11-28 19:48:10 INFO  EmployeeRestAPI:80 - Content Length==> 136
+  2022-11-28 19:48:10 INFO  EmployeeRestAPI:99 - $$ Finished TC004 POST Employee Record $$
+  2022-11-28 19:49:45 INFO  EmployeeRestAPI:15 -  $$ Started TC001 Get All Employees API $$ 
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:23 -  $$ Checking Response body $$ 
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:26 - Response body==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:32 -  $$ Checking Status Code $$ 
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:35 - Status Code==> 200
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:41 -  $$ Checking Response Time $$ 
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:44 - Response Time==> 1890
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:52 -  $$ Checking Status Line $$ 
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:55 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:61 -  $$ Checking Content Type $$ 
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:64 - Content Type==> application/json
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:70 -  $$ Checking Server Type $$ 
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:73 - Server Type==> nginx/1.21.6
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:79 -  $$ Finished TC001 Get All Employees API $$
+  2022-11-28 19:49:47 INFO  EmployeeRestAPI:22 - $$ Started TC005 Update Employee Record $$
+  2022-11-28 19:49:48 INFO  EmployeeRestAPI:40 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:49:48 INFO  EmployeeRestAPI:49 - Status Code==> 429
+  2022-11-28 19:49:48 INFO  EmployeeRestAPI:57 - Response Time==> 1127
+  2022-11-28 19:49:48 INFO  EmployeeRestAPI:67 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:49:48 INFO  EmployeeRestAPI:75 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:49:48 INFO  EmployeeRestAPI:83 - Content Length==> null
+  2022-11-28 19:49:48 INFO  EmployeeRestAPI:100 - $$ Finished TC003 Update Employee Record $$
+  2022-11-28 19:49:48 INFO  EmployeeRestAPI:18 - $$ Started TC006 Delete Employee Record $$
+  2022-11-28 19:49:49 INFO  EmployeeRestAPI:32 - Response body==> <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Method Not Allowed</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "405 Method Not Allowed".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>
+  2022-11-28 19:49:49 INFO  EmployeeRestAPI:41 - Status Code==> 405
+  2022-11-28 19:49:49 INFO  EmployeeRestAPI:49 - Response Time==> 1054
+  2022-11-28 19:49:49 INFO  EmployeeRestAPI:57 - $$ Finished TC006 Delete Employee Record $$
+  2022-11-28 19:49:49 INFO  EmployeeRestAPI:15 -  $$ Started TC002 Get Single Employee ID $$
+  2022-11-28 19:49:51 INFO  EmployeeRestAPI:25 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:49:51 INFO  EmployeeRestAPI:34 - Status Code==> 429
+  2022-11-28 19:49:51 INFO  EmployeeRestAPI:42 - Response Time==> 1136
+  2022-11-28 19:49:51 INFO  EmployeeRestAPI:52 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:49:51 INFO  EmployeeRestAPI:60 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:49:51 INFO  EmployeeRestAPI:68 - Server Type==> null
+  2022-11-28 19:49:51 INFO  EmployeeRestAPI:74 -  $$ Finished TC002 Get Single Employee detail $$
+  2022-11-28 19:49:51 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:49:52 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:49:54 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:49:55 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:49:56 INFO  EmployeeRestAPI:38 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:49:56 INFO  EmployeeRestAPI:47 - Status Code==> 429
+  2022-11-28 19:49:56 INFO  EmployeeRestAPI:55 - Response Time==> 1132
+  2022-11-28 19:49:56 INFO  EmployeeRestAPI:65 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:49:56 INFO  EmployeeRestAPI:73 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:49:56 INFO  EmployeeRestAPI:81 - Content Length==> null
+  2022-11-28 19:49:56 INFO  EmployeeRestAPI:106 - $$ Finished TC003 POST Employee Record $$
+  2022-11-28 19:49:56 INFO  EmployeeRestAPI:19 - $$ Started TC004 Post Employee Record $$
+  2022-11-28 19:49:57 INFO  EmployeeRestAPI:37 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:49:57 INFO  EmployeeRestAPI:46 - Status Code==> 429
+  2022-11-28 19:49:57 INFO  EmployeeRestAPI:54 - Response Time==> 1096
+  2022-11-28 19:49:57 INFO  EmployeeRestAPI:64 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:49:57 INFO  EmployeeRestAPI:72 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:49:57 INFO  EmployeeRestAPI:80 - Content Length==> null
+  2022-11-28 19:49:57 INFO  EmployeeRestAPI:99 - $$ Finished TC004 POST Employee Record $$
+  2022-11-28 19:55:48 INFO  EmployeeRestAPI:15 -  $$ Started TC001 Get All Employees API $$ 
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:23 -  $$ Checking Response body $$ 
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:26 - Response body==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:32 -  $$ Checking Status Code $$ 
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:35 - Status Code==> 200
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:41 -  $$ Checking Response Time $$ 
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:44 - Response Time==> 1913
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:52 -  $$ Checking Status Line $$ 
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:55 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:61 -  $$ Checking Content Type $$ 
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:64 - Content Type==> application/json
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:70 -  $$ Checking Server Type $$ 
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:73 - Server Type==> nginx/1.21.6
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:79 -  $$ Finished TC001 Get All Employees API $$
+  2022-11-28 19:55:50 INFO  EmployeeRestAPI:22 - $$ Started TC005 Update Employee Record $$
+  2022-11-28 19:55:51 INFO  EmployeeRestAPI:40 - Response body==> {"status":"success","data":{"Salary":"12721","name":"John wYeuJ","age":"85"},"message":"Successfully! Record has been updated."}
+  2022-11-28 19:55:51 INFO  EmployeeRestAPI:49 - Status Code==> 200
+  2022-11-28 19:55:51 INFO  EmployeeRestAPI:57 - Response Time==> 1093
+  2022-11-28 19:55:51 INFO  EmployeeRestAPI:67 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:55:51 INFO  EmployeeRestAPI:75 - Content Type==> application/json
+  2022-11-28 19:55:51 INFO  EmployeeRestAPI:83 - Content Length==> 128
+  2022-11-28 19:55:51 INFO  EmployeeRestAPI:100 - $$ Finished TC003 Update Employee Record $$
+  2022-11-28 19:55:51 INFO  EmployeeRestAPI:18 - $$ Started TC006 Delete Employee Record $$
+  2022-11-28 19:55:53 INFO  EmployeeRestAPI:32 - Response body==> <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Method Not Allowed</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "405 Method Not Allowed".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>
+  2022-11-28 19:55:53 INFO  EmployeeRestAPI:41 - Status Code==> 405
+  2022-11-28 19:55:53 INFO  EmployeeRestAPI:49 - Response Time==> 1150
+  2022-11-28 19:55:53 INFO  EmployeeRestAPI:57 - $$ Finished TC006 Delete Employee Record $$
+  2022-11-28 19:55:53 INFO  EmployeeRestAPI:15 -  $$ Started TC002 Get Single Employee ID $$
+  2022-11-28 19:55:54 INFO  EmployeeRestAPI:25 - Response body==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-11-28 19:55:54 INFO  EmployeeRestAPI:34 - Status Code==> 429
+  2022-11-28 19:55:54 INFO  EmployeeRestAPI:42 - Response Time==> 1138
+  2022-11-28 19:55:54 INFO  EmployeeRestAPI:52 - Status Line==> HTTP/1.1 429 Too Many Requests
+  2022-11-28 19:55:54 INFO  EmployeeRestAPI:60 - Content Type==> text/html; charset=UTF-8
+  2022-11-28 19:55:54 INFO  EmployeeRestAPI:68 - Server Type==> null
+  2022-11-28 19:55:54 INFO  EmployeeRestAPI:74 -  $$ Finished TC002 Get Single Employee detail $$
+  2022-11-28 19:55:54 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:55:56 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:55:57 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:55:58 INFO  EmployeeRestAPI:20 - $$ Started TC003 Post Employee Record $$
+  2022-11-28 19:55:59 INFO  EmployeeRestAPI:38 - Response body==> {"status":"success","data":{"Salary":"80000","name":"Cena","age":"35","id":8287},"message":"Successfully! Record has been added."}
+  2022-11-28 19:55:59 INFO  EmployeeRestAPI:47 - Status Code==> 200
+  2022-11-28 19:55:59 INFO  EmployeeRestAPI:55 - Response Time==> 1093
+  2022-11-28 19:55:59 INFO  EmployeeRestAPI:65 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:55:59 INFO  EmployeeRestAPI:73 - Content Type==> application/json
+  2022-11-28 19:55:59 INFO  EmployeeRestAPI:81 - Content Length==> 130
+  2022-11-28 19:55:59 INFO  EmployeeRestAPI:106 - $$ Finished TC003 POST Employee Record $$
+  2022-11-28 19:55:59 INFO  EmployeeRestAPI:19 - $$ Started TC004 Post Employee Record $$
+  2022-11-28 19:56:00 INFO  EmployeeRestAPI:37 - Response body==> {"status":"success","data":{"Salary":"24520","name":"John cBYSK","age":"82","id":6991},"message":"Successfully! Record has been added."}
+  2022-11-28 19:56:00 INFO  EmployeeRestAPI:46 - Status Code==> 200
+  2022-11-28 19:56:00 INFO  EmployeeRestAPI:54 - Response Time==> 1175
+  2022-11-28 19:56:00 INFO  EmployeeRestAPI:64 - Status Line==> HTTP/1.1 200 OK
+  2022-11-28 19:56:00 INFO  EmployeeRestAPI:72 - Content Type==> application/json
+  2022-11-28 19:56:00 INFO  EmployeeRestAPI:80 - Content Length==> 136
+  2022-11-28 19:56:00 INFO  EmployeeRestAPI:99 - $$ Finished TC004 POST Employee Record $$
+  
